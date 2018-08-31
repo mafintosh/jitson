@@ -1,0 +1,25 @@
+{
+  "name": "jitson",
+  "version": "0.0.0",
+  "description": "Just-In-Time JSON.parse compiler",
+  "main": "index.js",
+  "dependencies": {
+    "turbo-json-parse": "^2.2.1"
+  },
+  "devDependencies": {
+    "standard": "^12.0.0"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/jitson.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/jitson/issues"
+  },
+  "homepage": "https://github.com/mafintosh/jitson"
+}
