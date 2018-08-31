@@ -1,6 +1,6 @@
 {
   "name": "jitson",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Just-In-Time JSON.parse compiler",
   "main": "index.js",
   "dependencies": {
