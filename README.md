@@ -54,6 +54,8 @@ an instance for each of your http endpoints for example
 Similar to JSON.parse. Will schema sample the input once in a while
 to check if it has a stable schema. If so it'll optimise the parser.
 
+If the optimised parser fails it will fallback to JSON.parse and resample more data in future. If the optimised parser keeps failing it'll increase the sampling interval, to not waste too much time sampling and compiling.
+
 If you are parsing from Node.js buffers make sure to pass that as the `src`
 instead of `toString()`ing it first as that will produce a faster parser
 when compiling.
